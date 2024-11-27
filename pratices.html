@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .feedback {
+            margin: 0 auto;
+            max-width: 400px;
+        }
+
+        .items {
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #submit {
+            color: rgb(241, 230, 230);
+            background-color: rgb(51, 47, 47);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" class="feedback">
+        <h1>Feedback</h1>
+        <div class="cont">
+            <div>Name: <input type="text" class="items"></div>
+            <div>Email: <input type="email" class="items"></div>
+            <div>mobile No: <input type="number" class="items" required></div>
+            <div>Feedback: <br>
+                <textarea name="feedback" id="feedback" class="items"></textarea>
+            </div>
+            <div><input type="submit" class="items" id="submit"></div>
+        </div>
+    </form>
+</body>
+
+</html>
